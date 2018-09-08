@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from 'react-apollo';
 
+import Workshops from './components/Workshops';
+
 import './App.css';
 
 const client = new ApolloClient({
@@ -17,6 +19,7 @@ const App = () => (
       <p className="App-intro">
         This should be fun!
       </p>
+      <Workshops />
     </div>
   </ApolloProvider>
 );

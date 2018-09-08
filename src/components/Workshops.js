@@ -4,14 +4,16 @@ import gql from 'graphql-tag';
 
 const Workshops = () => (
   <Query query={gql`
-    workshops {
-      title
+    {
+      workshops {
+        title
+      }
     }
   `}>
     {({ loading, error, data }) => {
       if (loading) return (<p>Loading...</p>);
       if (error) return (<p>There was an error :(</p>);
-      return (<p>{data.workshops[0].title}</p>)
+      return (<p>We have some data! 🧚‍🐄🍻</p>)
     }}
   </Query>
 );
