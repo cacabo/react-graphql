@@ -1,4 +1,4 @@
-# React-GraphQL
+# Intro to GraphQL with React
 
 Hi there! Let's learn some more about React and GraphQL. If you want to follow along, do the following:
 
@@ -11,8 +11,16 @@ Hi there! Let's learn some more about React and GraphQL. If you want to follow a
 
 --------------------
 
+To follow along with my slides, check out this [Dropbox Paper](https://paper.dropbox.com/doc/Intro-to-GraphQL--AMS22JHGuxRYHpFZVJEy5AetAQ-zLNrZT6muM6gGOXHT5IjC).
+
+--------------------
+
 ### More about this repo
 
-* This is effectively `creat-react-app` with a little clean up, some styles, and some packages to make getting up and running with GraphQL easier.
+* This is effectively `create-react-app` with a little clean up, some styles, and some packages to make getting up and running with GraphQL easier.
 * All code regarding making queries and rendering stuff goes down in the `/components` folder.
 * All code regarding setting up the app goes down in `index.js` and `App.js`.
+
+--------------------
+
+For part 1 of this demo, [go here](https://github.com/ccabo1/js-graphql).
