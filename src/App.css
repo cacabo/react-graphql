@@ -1,17 +1,17 @@
-.App {
+.app {
   text-align: center;
 }
 
-.App-header {
+.header {
   background-color: #222;
   padding: 2rem 0rem;
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+.title {
+  font-size: 2em;
 }
 
-.App-intro {
-  font-size: 1.25em;
+p {
+  font-size: 2em;
 }
